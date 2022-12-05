@@ -28,31 +28,31 @@ fn main() {
 
     println!("Max value: {}", total[..3].iter().sum::<u32>());
 
+    //{
+        // First Part - ThePrimeagen
+        // let max = include_str!("../resources/input_1.txt")
+        // .split("\n\n")
+        // .map(|supply| {
+        //         return supply
+        //             .split("\n")
+        //             .flat_map(str::parse::<usize>)
+        //             .sum::<usize>(); 
+        //     })
+        //     .max();
+        
+        // println!("Max: {}", max.unwrap());
 
-    // First Part - Optimized
-    // let max = include_str!("../resources/input_1.txt")
-    // .split("\n\n")
-    // .map(|supply| {
-    //         return supply
-    //             .split("\n")
-    //             .flat_map(str::parse::<usize>)
-    //             .sum::<usize>(); 
-    //     })
-    //     .max();
-    
-    // println!("Max: {}", max.unwrap());
+        // Second Part - ThePrimeagen
+        // let mut max = include_str!("../resources/input_1.txt")
+        // .split("\n\n")
+        // .map(|supply| {
+        //         return supply
+        //             .lines()
+        //             .flat_map(str::parse::<usize>)
+        //             .sum::<usize>(); 
+        //     })
+        //     .collect::<Vec<usize>>();
 
-    // Second Part - Optimized
-    // let mut max = include_str!("../resources/input_1.txt")
-    // .split("\n\n")
-    // .map(|supply| {
-    //         return supply
-    //             .lines()
-    //             .flat_map(str::parse::<usize>)
-    //             .sum::<usize>(); 
-    //     })
-    //     .collect::<Vec<usize>>();
-
-    // println!("Max: {}", max.into_iter().take(3).sum::<usize>());
-
+        // println!("Max: {}", max.into_iter().take(3).sum::<usize>());
+    //}
 }
