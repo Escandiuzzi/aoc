@@ -1,6 +1,6 @@
 fn main() {
     
-    let content = std::fs::read_to_string("./resources/input_1.txt")
+    let content = std::fs::read_to_string("./resources/input_1.prod")
         .expect("File not found!");
 
     let elfs_supply = content.split("\n\n");
