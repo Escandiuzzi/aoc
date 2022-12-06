@@ -1,7 +1,7 @@
 fn main() {
 
     let (crates, m) = 
-        include_str!("../resources/input_5.test")
+        include_str!("../resources/input_5.prod")
         .split_once("\n\n").unwrap();
 
     let mut crane = create_crane(crates);
@@ -69,8 +69,6 @@ fn main() {
         print!("{}", value);
         index += 1;
     }
-
-
 }
 
 fn create_crane(crates: &str) -> Vec<Vec<char>>{
